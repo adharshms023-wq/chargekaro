@@ -73,3 +73,30 @@ export default defineConfig([
 ])
 
 ```
+
+project structure 
+
+src/
+│
+├── assets/
+├── components/
+│   ├── Navbar/
+│   ├── Map/
+│   ├── Sidebar/
+│   └── ChargerCard/
+│
+├── pages/
+│   ├── Home/
+│   ├── Explore/
+│   ├── AddCharger/
+│   └── About/
+│
+├── services/
+├── hooks/
+├── types/
+├── data/
+├── utils/
+│
+├── App.tsx
+└── main.tsx
+
