@@ -73,9 +73,15 @@ export default defineConfig([
 ])
 
 ```
+# ChargeKaro ⚡
 
-project structure 
+A community-driven EV charging station platform where users can discover public chargers, list private chargers, and navigate to nearby charging points.
 
+---
+
+## 📁 Project Structure
+
+```text
 src/
 │
 ├── assets/
@@ -99,4 +105,65 @@ src/
 │
 ├── App.tsx
 └── main.tsx
+```
+
+---
+
+## 🚀 MVP Features
+
+- Interactive EV charging station map
+- Search nearby chargers
+- Filter by charger type
+- View charger details
+- Community charger listings
+- Add a charger (future backend)
+- Mobile responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- React Leaflet
+- OpenStreetMap
+- Axios
+- Zustand
+- React Hook Form
+- Zod
+
+---
+
+## 📅 Roadmap
+
+### Phase 1
+- Landing Page
+- Navigation
+- Interactive Map
+- Mock Charging Stations
+
+### Phase 2
+- Django REST API
+- PostgreSQL Database
+- CRUD Operations
+
+### Phase 3
+- Authentication
+- Reviews
+- Favorites
+- Images
+
+### Phase 4
+- Razorpay Integration
+- Booking System
+- Community Sharing
+- AI Route Planner
+
+---
+
+## 📄 License
+
+MIT License
 
